@@ -76,7 +76,7 @@
         text-transform: uppercase;
     }
 
-    
+
     .scount, .sostenible{
         padding: 4px;
         font-size: 0.8rem;
@@ -89,6 +89,7 @@
     .sostenible{
         background-color: green;
         color: white;
+        display: none;
     }
     
     .scounted-price{
@@ -99,3 +100,15 @@
         text-decoration: line-through;
     }
     
+
+    /* secondpart with hover  */
+    .invisible{
+        display: none;
+    }
+
+    .product-section:hover .invisible{
+        display: block;
+    }
+
+
+
