@@ -4,19 +4,20 @@
         padding: 0;
         box-sizing: border-box;
     }
-
+    
 
     .productscreen{
         margin: 30px auto;
         width: 80%;
-        background-color: red;
+        /* background-color: red; */
         min-height: 700px;
     }
 
     .product-section{
-        background-color: aliceblue;
+        /* background-color: aliceblue; */
         display: inline-block;
-        height: 600px;
+        margin:0 20px 50px auto ;
+        width: 480px;
     }
     .brand,.price{
         display: block;
@@ -35,33 +36,50 @@
 
 
     /* MAIN  */
+
+    /* PRODUCT IMG  */
     .product-img{
         display: inline-block;
-        width: 350px;
-        height: 500px;
+        width: 100%;
+        height: 690px;
     }
     img{
         background-color: aqua;
         height: 100%;
         width: 100%;
     }
+
+    
+
+
+
+    /* PRODUCT INFO  */
     .icon{
         background-color: white;
         width: 50px;
         height: 50px;
         right: 0;
         top: 20px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 28px;
     }
     
     .info{
         bottom: 20px;
     }
+
+    .scount, .sostenible{
+        padding: 4px;
+        font-size: 0.8rem;
+    }
+
     .scount{
         background-color: red;
-        padding: 5px;
         color: white;
     }
     .sostenible{
         background-color: green;
-        padding: 5px;
+        color: white;
     }
+    
