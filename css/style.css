@@ -80,6 +80,7 @@
     .scount, .sostenible{
         padding: 4px;
         font-size: 0.8rem;
+
     }
 
     .scount{
@@ -88,8 +89,8 @@
     }
     .sostenible{
         background-color: green;
-        color: white;
         display: none;
+        color: white;
     }
     
     .scounted-price{
@@ -110,5 +111,33 @@
         display: block;
     }
 
+    /* SOSTENIBLE PRODUCTS  */
+    .product-section:nth-of-type(1) .sostenible{
+        display: inline-block;
+    }
 
+    .product-section:nth-of-type(4) .sostenible{
+        display: inline-block;
+    }
 
+    .product-section:nth-of-type(6) .sostenible{
+        display: inline-block;
+    }
+
+    /*PRODUCTS WITHOUT  SCOUNTE  */
+    .product-section:nth-of-type(5) .scount{
+        display: none;
+    }
+    .product-section:nth-of-type(6) .scount{
+        display: none;
+    }
+    
+    /*PRODUCTS WITHOUT  scounted price  */
+    .product-section:nth-of-type(3) .normal-price{
+        display: none;
+    }
+    .product-section:nth-of-type(5) .normal-price{
+        display: none;
+    }.product-section:nth-of-type(6) .normal-price{
+        display: none;
+    }
