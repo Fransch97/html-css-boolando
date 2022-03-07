@@ -1,0 +1,23 @@
+    /* GENERAL  */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    main{
+        margin: 30px auto;
+        width: 80%;
+        background-color: red;
+        min-height: 700px;
+    }
+
+
+
+    /* UTILITY  */
+
+
+
+
+    /* MAIN  */
