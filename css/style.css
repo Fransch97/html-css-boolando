@@ -11,6 +11,8 @@
         width: 80%;
         /* background-color: red; */
         min-height: 700px;
+        text-align: center;
+
     }
 
     .product-section{
@@ -48,7 +50,6 @@
     }
     img{
         background-color: aqua;
-        height: 100%;
         width: 100%;
     }
 
