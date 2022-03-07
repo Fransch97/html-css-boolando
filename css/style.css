@@ -110,7 +110,7 @@
         display: block;
     }
 
-    .product-section:hover .invisible{
+    .product-section:hover .visible{
         display: none;
     }
     /* SOSTENIBLE PRODUCTS  */
